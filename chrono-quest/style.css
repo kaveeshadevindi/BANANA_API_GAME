@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #ffcc00;
+}
+
+#game {
+  margin-top: 40px;
+  background: #2f2f47;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button {
+  background: #ffcc00;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffaa00;
+}
+
+.blink {
+animation: blinker 1.5s linear infinite;
+color: red;
+font-family: sans-serif;
+}
+@keyframes blinker {
+50% { opacity: 0; }
+}

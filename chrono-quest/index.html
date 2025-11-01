@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chrono Quest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>⏳ Chrono Quest ⏳ <Br></Br>Time Travel Puzzle By Devindi</h1>
+
+  <!-- Player Setup -->
+  <div id="setup">
+    <p>Enter your name to begin:</p>
+    <input type="text" id="playerName" placeholder="Your Name">
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <!-- Game Area -->
+  <div id="game" style="display:none;">
+    <p id="welcome"></p>
+    <p id="question"></p>
+    <!-- <img id="bananaImg" src="" alt="Banana placeholder" width="80"><br><br> -->
+    <input type="number" id="answer" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <p id="feedback"></p>
+    <p>Level: <span id="level">1</span> | Score: <span id="score">0</span></p>    
+  </div>
+<p class="blink"> NOT COPY UNDER DEVELOPING BY MY SELF (Devindi) </P>
+  <script src="script.js"></script>
+</body>
+</html>
